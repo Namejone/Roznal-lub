@@ -1,4 +1,12 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .book-viewControl--mobile {
+    display: none;
+  }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media (max-width: 1400px) {
 
   .category-slider button.btn-outline {
@@ -139,6 +147,27 @@
     height: 40px;
   }
 
+  .editor-groupBtns button {
+    width: 32px;
+    height: 32px;
+  }
+
+  .editor-numberCount button {
+    width: 32px;
+    height: 32px;
+  }
+
+  .editor-numberCount input {
+    width: 32px;
+    height: 32px;
+  }
+
+  .view-topBar__inner {
+    width: 100%;
+    padding: 17px 0px 18px;
+    gap: 8px;
+    justify-content: center;
+  }
 
 }
 
@@ -305,8 +334,22 @@
     min-height: calc(100vh - 70px);
   }
 
+  .editor-progress {
+    width: 78px;
+    padding: 17px 8px;
+    border-radius: 30px;
+  }
 
+  .dropdown-menu.timer-dropdown {
+    min-width: 196px;
+    padding: 10px 12px;
+    transform: translate(-93px, 40px) !important;
+  }
 
+  .timer-picker__list {
+    font-size: 15px;
+    line-height: 24px;
+  }
 
 
 
